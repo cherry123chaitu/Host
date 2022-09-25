@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="Assignme">
+<head>
+<meta charset="utf-8">
+<script src="angular.js"></script>
+<script src="app.js"></script>
+<title>Assignment</title>
+</head>
+<body ng-controller="AssignmentViewModel">
+<div><h1 class="mainheading" >
+    Word counting machine.
+</h1></div>
+    <input type="text" ng-model="name">
+<div>
+    <button ng-click="taketext()">Check if too much</button>
+</div>
+<div><p ng-model="message">Message:{{message}}</p></div>
+
+</body>
+</html>
